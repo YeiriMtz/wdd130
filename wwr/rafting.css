@@ -1,0 +1,89 @@
+:root { 
+    --primary-color: #c49c87;
+    --secondary-color: #e6e4b4;
+    --accent1-color: #9b9597;
+    --accent2-color: #7f9f9e;
+}
+
+.navigation {
+    background-color: rgba(59, 96, 47, 0.3);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navigation img {
+   height: 60px ;
+   width: auto;
+
+}
+
+.navigation a {
+    color: var(--accent2-color);
+    text-decoration: none;
+    margin: auto;
+    min-width: 80px;
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+main h1 {
+    font-family: "Pacifico", cursive;
+    margin: 0;
+  }
+
+main {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.hero {
+    background-image: url(images/rafting_background.webp);
+    min-width: 0px;
+    min-height: 800px;
+    background-size: cover;
+}
+
+.hero h1{
+    color: var(--secondary-color);
+    position: absolute;
+  }
+
+.hero p {
+    color: var(--secondary-color);
+
+}
+
+.hero img {
+    width: 150px;
+    float: right;
+
+}
+
+.hero article {
+    position: absolute
+}
+section img {
+    width: 150px;
+}
+
+footer {
+    color: var(--accent2-color);
+    text-decoration: none;
+    margin: auto;
+    min-width: 80px;
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+footer a, img {
+    width: 50px;
+    text-decoration: none;
+}

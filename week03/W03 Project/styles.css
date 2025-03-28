@@ -1,0 +1,85 @@
+:root { 
+    --primary-color: #c49c87;
+    --secondary-color: #e6e4b4;
+    --accent1-color: #9b9597;
+    --accent2-color: #7f9f9e;
+    /* https://coolors.co/c49c87-7f9f9e-9b9597-e6e4b4 */
+}
+  
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+  }
+
+
+main {
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+}
+
+.background {
+    background-image: url(images/rafting_background.jpg);
+    min-width: 0rem;
+    min-height: 50rem;
+    background-size: cover;
+
+  }
+
+.navigation {
+    background-color: rgba(59, 96, 47, 0.3);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navigation img {
+   height: 60px ;
+
+}
+
+.navigation a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: auto;
+    min-width: 5rem;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+ 
+.main-container {
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-button {
+    background-color: var(--accent2-color);
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.main-button:hover {
+    background-color: #626060;
+    transition: 1s;
+}
+
+footer {
+    color: var(--accent2-color);
+    text-decoration: none;
+    margin: auto;
+    min-width: 5rem;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
