@@ -44,7 +44,7 @@ header nav {
 .hero h1 {
     color: var(--secondary-color);
     position: absolute;
-    top: 5%;
+    top: 1%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 40px;
@@ -57,7 +57,7 @@ header nav {
 
 .hero article {
     width: auto;
-    margin: 100px auto;
+    margin: 150px auto;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
