@@ -103,13 +103,15 @@ header nav {
 }
 
 .container {
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 5px, auto;
+    padding: 5px;
 }
 
-.text {
+.text-left, .text-right{
     font-size: 30px;
     width: auto;
     height: auto;
