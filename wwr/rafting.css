@@ -106,7 +106,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: auto;
+    max-width: 900px;
     margin: 20px;
 }
 
