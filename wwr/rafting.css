@@ -142,7 +142,7 @@ header nav {
 .adventure-gallery {
     display: flex;
     justify-content: center;
-    gap: auto; 
+    gap: 20px; 
     flex-wrap: nowrap; 
 }
 
