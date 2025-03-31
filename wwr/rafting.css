@@ -26,6 +26,8 @@ header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    font-size: 170%;
 } 
 
 .hero {
@@ -47,7 +49,7 @@ header nav {
     top: 1%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 40px;
+    font-size: 80px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -56,9 +58,10 @@ header nav {
 }
 
 .hero article {
+    font-size: 30px;
     width: auto;
-    margin: 150px auto;
-    padding: 10px;
+    margin: 200px auto;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -70,7 +73,7 @@ header nav {
 }
 
 .hero article img {
-    width: 120px;
+    width: 205px;
     height: auto;
     float: right;
     margin-left: 15px;
@@ -84,30 +87,39 @@ header nav {
 }
 
 .history-section {
+  font-size: 20px;
   width: auto;
   margin: 20px auto;
-  padding: 20px;
+  padding: 30px;
   background-color: var(--accent2-color);
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .history-section h2 {
+    font-size: 40px;
     display: flex;
     justify-content: center;
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    max-width: auto;
+    max-width: 5000px;
     margin: auto;
 }
 
 .text {
+    font-size: 30px;
     width: auto;
     height: auto;
+}
+
+.history-image img {
+    width: 400px; 
+    height: 300px;
+    border-radius: 10px;
 }
 
 .adventure-section {
@@ -120,15 +132,10 @@ header nav {
   height: auto
 }
 
-.history-image img {
-    width: 150px; 
-    height: auto;
-    border-radius: 10px;
-}
-
 .adventure-title {
   display: flex;
   justify-content: center;
+  font-size: 40px;
 }
 
 .adventure-gallery {
@@ -139,14 +146,15 @@ header nav {
 }
 
 .adventure-gallery img{
-    width: 140px;
-    height: 140px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 10px;
 }
 
 figure {
     text-align: center;
+    font-size: 30px;
 }
 
 footer {
