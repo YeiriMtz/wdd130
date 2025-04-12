@@ -28,7 +28,7 @@ header nav {
     justify-content: space-around;
     align-items: center;
 
-    font-size: 170%;
+    font-size: 100%;
 } 
 /* .hero {
     background-image: url(images/rafting_background.webp);
@@ -160,6 +160,14 @@ figure {
     font-size: 30px;
 } */
 
+.Contact-Us-Page-Title {
+    text-align: center;
+    font-size: large;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: var(--secondary-color);
+    border-radius: 10px;
+}
+
 .content {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -169,7 +177,7 @@ figure {
 .our-info {
     text-align: center;
     margin: 10px 10px;
-    padding: 60px;
+    padding: 50px;
     border-radius: 10px;
     background-color: rgb(0, 0, 0, 0.5);
     color: var(--secondary-color);
@@ -180,7 +188,7 @@ form {
     margin: 10px 10px;
     padding: 50px;
     background-color: rgb(0, 0, 0, 0.5);
-    border-radius: 16px;
+    border-radius: 10px;
     color: var(--secondary-color);
     font-family: sans-serif;
     font-size: 20px;
