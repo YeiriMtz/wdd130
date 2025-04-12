@@ -292,10 +292,6 @@ footer {
   background-color: var(--accent2-color);
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   
 }
 .socialinks a{
@@ -305,4 +301,14 @@ footer {
 .socialinks img {
     height: 50px;
     width: auto;
+}
+
+.contact-us-footer {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    
+    display: flex;
+    justify-content: space-around;
+
+    color: var(--secondary-color);
 }
