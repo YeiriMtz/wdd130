@@ -343,6 +343,7 @@ button:hover, .newsletter-button:hover, .get-in-touch-button:hover {
 .trip-descriptions img {
     width: 250px;
     height: 250px;
+    border-radius: 10px;
 }
 
 .class-one, .class-two, .class-three {
@@ -362,6 +363,7 @@ button:hover, .newsletter-button:hover, .get-in-touch-button:hover {
 
 .trip-descriptions p {
     color: rgb(172, 160, 160);
+    text-align: center;
 }
 
 .trip-table {
