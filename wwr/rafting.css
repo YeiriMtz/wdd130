@@ -322,6 +322,7 @@ button:hover, .newsletter-button:hover, .get-in-touch-button:hover {
     flex-wrap: nowrap; 
     text-align: center;
     font-size: 25px;
+    color: var(--secondary-color);
 }
 
 .employee-gallery img {
@@ -420,7 +421,7 @@ footer {
     width: auto;
 }
 
-.footer-container {
+.footer-container{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     
@@ -428,4 +429,10 @@ footer {
     justify-content: space-around;
 
     color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.footer-container a {
+    color: var(--secondary-color);
+    text-decoration: none;
 }
